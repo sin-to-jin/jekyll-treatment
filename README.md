@@ -1,6 +1,12 @@
 # jekyll-treatment
 Script collection treated by Jekyll.
 
+## Environment
+- ruby 2.6.0
+- jekyll (3.7.4)
+- minima (2.5.0)
+- kramdown (1.17.0)
+
 ## 1. Minima
 https://github.com/jekyll/minima PJ
 
