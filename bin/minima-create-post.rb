@@ -29,7 +29,7 @@ title:  "#{name}"
 date:   #{date} 00:00:00 +0900
 categories: articles #{categories}
 tags:
-#{tags}
+#{tags || "- #{categories}"}
 ---
 CONTENT
 File.open("site/_posts/#{filename}", "wx") do |f|
